@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GUI Config Manager</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="edit_frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QCheckBox" name="checkBox_p1">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>109</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 1</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>109</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 2</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>90</y>
+         <width>109</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 3</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>120</y>
+         <width>109</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 4</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="file_editor">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>30</y>
+         <width>351</width>
+         <height>251</height>
+        </rect>
+       </property>
+       <property name="plainText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>150</y>
+         <width>109</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 5</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="file_editor_label">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>10</y>
+         <width>100</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Append to File</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>180</y>
+         <width>109</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 6</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>210</y>
+         <width>109</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 7</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>240</y>
+         <width>109</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 8</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p10">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>60</y>
+         <width>117</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 10</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p15">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>210</y>
+         <width>117</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 15</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p11">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>90</y>
+         <width>117</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 11</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p16">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>240</y>
+         <width>117</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 16</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p14">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>180</y>
+         <width>117</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 14</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p12">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>120</y>
+         <width>117</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 12</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p13">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>150</y>
+         <width>117</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 13</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_p9">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>30</y>
+         <width>109</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Parameter 9</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="preview_frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLineEdit" name="file_name_input">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>30</y>
+         <width>201</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>File Name</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="build_button">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>140</y>
+         <width>80</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Build File</string>
+       </property>
+      </widget>
+      <widget class="QTextBrowser" name="file_preview">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>451</width>
+         <height>261</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="file_preview_label">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>10</y>
+         <width>83</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>File Preview</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="reset_button">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>190</y>
+         <width>80</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Reset</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="abort_button">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>240</y>
+         <width>80</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Abort</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>70</y>
+         <width>26</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+      <widget class="QTextBrowser" name="textBrowser_2">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>70</y>
+         <width>171</width>
+         <height>24</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="Line" name="line">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>110</y>
+         <width>201</width>
+         <height>3</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
