@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-import time
 import platform
-import subprocess
 from os import system, path
 from PyQt5 import QtCore, QtGui, QtWidgets
 # Main window UI File
